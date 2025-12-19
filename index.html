@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hati-Z | Developer & Designer</title>
-    <meta name="description" content="Personal portfolio of Hati-Z. Building digital experiences.">
+    <title>Haotian Zhou | Software Engineer</title>
+    <meta name="description" content="Personal portfolio of Haotian Zhou.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,15 +13,16 @@
 </head>
 
 <body>
-    <div class="glow"></div>
+    <div class="bg-watermark">Hati-Z</div>
 
     <nav class="navbar">
         <div class="container nav-content">
-            <a href="#" class="logo">Hati-Z</a>
+            <a href="#" class="logo">Hati<span class="logo-accent">-Z</span></a>
             <div class="nav-links">
                 <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
                 <a href="#projects">Work</a>
-                <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
@@ -30,13 +31,77 @@
         <section id="about" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <span class="hero-subtitle">Hi, I'm Hati-Z</span>
-                    <h1>Building Digital Experiences</h1>
-                    <p>I am a developer passionate about creating premium, intuitive, and performant web applications.
-                        Welcome to my digital garden.</p>
-                    <div class="hero-actions">
-                        <a href="#projects" class="btn">View Work</a>
-                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <span class="hero-subtitle">Senior Software Engineer @ Google</span>
+                    <h1>Haotian Zhou</h1>
+                    <p class="hero-intro">
+                        Designing, Coding, Investing
+                        <br>
+                        Traveling, Eating, Gaming
+                    </p>
+                    <ul class="hero-links">
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/haotian-zhou/"
+                                target="_blank">https://www.linkedin.com/in/haotian-zhou/</a></li>
+                        <li>Email: <a href="mailto:haotian.us@gmail.com">haotian.us@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <!-- Google Senior SWE -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">Mar 2022 - Present</span>
+                        <div class="timeline-content">
+                            <h3>Senior Software Engineer</h3>
+                            <h4>Google Compute & AI</h4>
+                            <p>Improve GCE Reliability</p>
+                        </div>
+                    </div>
+                    <!-- Amazon SWE -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">Jul 2020 - Mar 2022</span>
+                        <div class="timeline-content">
+                            <h3>Software Engineer</h3>
+                            <h4>Amazon</h4>
+                            <p>Amazon Retail Supply Chain Optimization</p>
+                        </div>
+                    </div>
+                    <!-- CMU TA -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">Jan 2019 - May 2019</span>
+                        <div class="timeline-content">
+                            <h3>Natural Language Processing TA</h3>
+                            <h4>Carnegie Mellon University</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <!-- CMU -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">2018 - 2020</span>
+                        <div class="timeline-content">
+                            <h3>Carnegie Mellon University</h3>
+                            <h4>Master's degree, Artificial Intelligence</h4>
+                            <p>GPA: 3.95</p>
+                        </div>
+                    </div>
+                    <!-- HIT -->
+                    <div class="timeline-item">
+                        <span class="timeline-date">2014 - 2018</span>
+                        <div class="timeline-content">
+                            <h3>Harbin Institute of Technology</h3>
+                            <h4>Bachelor's degree, Computer Science</h4>
+                            <p>GPA: 3.75</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,49 +112,27 @@
                 <h2>Selected Work</h2>
                 <div class="grid">
                     <div class="card">
-                        <h3>Project One</h3>
-                        <p>A high-performance web application built with modern technologies. Focusing on user
-                            experience and scalability.</p>
+                        <h3>Obtaining Test Data Using a Bag-of-Words Model on Structured Logs</h3>
+                        <p class="role">Technical Disclosure Commons</p>
+                        <p class="small-text">Yifan Gao, Dan Yang, Haotian Zhou, et al. | Oct 2024</p>
+                        <p>Describes methods leveraging natural language processing (NLP) techniques to downsample a
+                            high-dimensional data space to ensure the test coverage of important usage patterns and
+                            parameter interactions. A horizontally scalable, NLP-inspired dataflow recognizes
+                            multidimensional patterns from structured logs.</p>
                         <div class="card-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">Design</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Test Data Generation</span>
+                            <span class="tag">Software Testing</span>
                         </div>
-                    </div>
-                    <div class="card">
-                        <h3>Project Two</h3>
-                        <p>An interactive visualization tool for data analysis. Bringing complex data to life through
-                            clean UI.</p>
-                        <div class="card-tags">
-                            <span class="tag">D3.js</span>
-                            <span class="tag">WebGL</span>
-                            <span class="tag">Analytics</span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <h3>Project Three</h3>
-                        <p>Open source contribution to a major library. Improving accessibility and performance for
-                            everyone.</p>
-                        <div class="card-tags">
-                            <span class="tag">Open Source</span>
-                            <span class="tag">TypeScript</span>
-                        </div>
+                        <br>
+                        <a href="https://www.tdcommons.org/dpubs_series/7411/" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.9rem; padding: 0.5rem 1rem;">Read Publication</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Let's Connect</h2>
-                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
-                    visions.</p>
-                <div class="contact-links">
-                    <a href="https://www.linkedin.com/in/haotian-zhou/" target="_blank" class="btn">LinkedIn</a>
-                    <a href="mailto:haotian.us@gmail.com" class="btn btn-outline">Email</a>
-                </div>
-            </div>
-        </section>
+
     </main>
 
     <footer>
